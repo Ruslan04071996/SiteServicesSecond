@@ -1,0 +1,81 @@
+$bgColorHeader: #ffffff;
+.icons-and-header__icon_burger {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/burger.svg);
+    background-repeat: no-repeat;
+}
+
+.icons-and-header__icon_logo {
+    width: 100px;
+    height: 60px;
+    background-image: url(../img/Group.svg);
+    background-repeat: no-repeat;
+}
+
+.icons-and-header__icon_divider {
+    width: 3px;
+    height: 40px;
+    background-image: url(../img/divider.svg);
+}
+.icons-and-header__icon_repair {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/repair.svg);
+    background-repeat: no-repeat;
+}
+
+.icons-and-header__icon_status {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/checkstatus.svg);
+}
+.icons-and-header__icon_call {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/call.svg);
+    background-repeat: no-repeat;
+
+}
+
+.icons-and-header__icon_profile {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/profile.svg);
+    background-repeat: no-repeat;
+}
+
+.icons-and-header__icon_lg {
+    display: none;
+}
+.icons-and-header__icon_md {
+    display: none ;
+}
+.icons-and-header__icon_divider {
+    display: none;
+}
+.icons-and-header__link {
+    display: none;
+}
+.icons-and-header__header {
+    display: none;
+}
+.icons-and-header__icon_sm {
+    display: block;
+    align-self: center;
+}
+
+.icons-and-header {
+    display: flex;
+    background-color: $bgColorHeader;
+    padding: 24px 16px 18px 16px;
+    justify-content: space-between;
+}
+.head-md::before {
+    content: '';
+    width: 4px;
+    height: 40px;
+    background-image: url(../img/highlight.svg);
+    position: absolute;
+    left: -15px;
+}

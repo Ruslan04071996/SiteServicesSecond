@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
-<body>
-<img src="./img/webpack.svg" alt="Webpack Logo" width="200px">
-<h3>Welcome to Webpack 4 starter </h3>
+
+<body class="body">
+    <!-- <img src="./img/webpack.svg" alt="Webpack Logo" width="200px"> -->
+    <main class="main">
+        <section class="icons-and-header">
+
+            <header class="icons-and-header__header">
+                <h1 class="icons-and-header__head">Услуги и сервисы</h1>
+            </header>
+
+            <div
+                class="icons-and-header__icon icons-and-header__icon_burger icons-and-header__icon_sm icons-and-header__icon_md">
+            </div>
+            <div class="icons-and-header__icon icons-and-header__icon_divider icons-and-header__icon__md"></div>
+            <div
+                class="icons-and-header__icon icons-and-header__icon_logo icons-and-header__icon_sm icons-and-header__icon_md">
+            </div>
+            <div class="icons-and-header__icon icons-and-header__icon_divider icons-and-header__icon_sm"></div>
+            <div class="icons-and-header__icon icons-and-header__icon_call icons-and-header__icon_md"></div>
+            <div class="icons-and-header__icon icons-and-header__icon_chat icons-and-header__icon_md"></div>
+            <div class="icons-and-header__icon icons-and-header__icon_profile icons-and-header__icon_md"></div>
+            <div class="icons-and-header__icon icons-and-header__icon_divider icons-and-header__icon_md"></div>
+
+            <a href="#" class="icons-and-header__link icons-and-header__link_left icons-and-header__link_lg">Оставить заявку</a>
+
+            <div class="icons-and-header__icon icons-and-header__icon_repair icons-and-header__icon_sm icons-and-header__icon_md icons-and-header__icon_lg"></div>
+            <a href="#" class="icons-and-header__link icons-and-header__link_lg icons-and-header__link_right">Статус ремонта</a>
+            <div class="icons-and-header__icon icons-and-header__icon_status icons-and-header__icon_sm icons-and-header__icon_md icons-and-header__icon_lg"></div>
+        </section>
+
+    </main>
+
+
 </body>
+
 </html>
