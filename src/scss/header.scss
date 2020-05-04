@@ -71,11 +71,18 @@ $bgColorHeader: #ffffff;
     padding: 24px 16px 18px 16px;
     justify-content: space-between;
 }
+.head-md {
+    font-size: 28px;
+    margin-top: 24px;
+    margin-left: 16px;
+    position: relative;
+}
 .head-md::before {
     content: '';
     width: 4px;
     height: 40px;
     background-image: url(../img/highlight.svg);
     position: absolute;
+    top: -5px;
     left: -15px;
 }
