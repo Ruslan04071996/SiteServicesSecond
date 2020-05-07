@@ -7,6 +7,9 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
 </head>
 
 <body class="body">
@@ -31,11 +34,17 @@
             <div class="icons-and-header__icon icons-and-header__icon_profile icons-and-header__icon_md"></div>
             <div class="icons-and-header__icon icons-and-header__icon_divider icons-and-header__icon_md"></div>
 
-            <a href="#" class="icons-and-header__link icons-and-header__link_left icons-and-header__link_lg">Оставить заявку</a>
+            <a href="#" class="icons-and-header__link icons-and-header__link_left icons-and-header__link_lg">Оставить
+                заявку</a>
 
-            <div class="icons-and-header__icon icons-and-header__icon_repair icons-and-header__icon_sm icons-and-header__icon_md icons-and-header__icon_lg"></div>
-            <a href="#" class="icons-and-header__link icons-and-header__link_lg icons-and-header__link_right">Статус ремонта</a>
-            <div class="icons-and-header__icon icons-and-header__icon_status icons-and-header__icon_sm icons-and-header__icon_md icons-and-header__icon_lg"></div>
+            <div
+                class="icons-and-header__icon icons-and-header__icon_repair icons-and-header__icon_sm icons-and-header__icon_md icons-and-header__icon_lg">
+            </div>
+            <a href="#" class="icons-and-header__link icons-and-header__link_lg icons-and-header__link_right">Статус
+                ремонта</a>
+            <div
+                class="icons-and-header__icon icons-and-header__icon_status icons-and-header__icon_sm icons-and-header__icon_md icons-and-header__icon_lg">
+            </div>
         </section>
 
         <h2 class="head-md">Услуги и сервисы</h2>
@@ -69,13 +78,13 @@
                 </p>
                 <p class="content__el_md">
                     Мы успешно работаем с 1992 года и
-                        заслужили репутацию надежного партнера<span class="content__el_lg"></i> ,
-                     что подтверждает
-                    большое количество постоянных клиентов. Мы гордимся тем , что
-                    к нам обращаются по рекомендациям и , в свою очередь, советуют
-                    нас родным и близким.
-                        </span>
-                   
+                    заслужили репутацию надежного партнера<span class="content__el_lg"></i> ,
+                        что подтверждает
+                        большое количество постоянных клиентов. Мы гордимся тем , что
+                        к нам обращаются по рекомендациям и , в свою очередь, советуют
+                        нас родным и близким.
+                    </span>
+
                 </p>
 
 
@@ -88,15 +97,113 @@
                 <img src="../img/workingHours.png" alt="workingHours" class='content__img_el'>
             </div>
 
-
         </section>
         </div>
 
-</section>
+        </section>
+
+        <div class="head">
+            <h3 class="head__el">Ремонт техники различных брендов</h3>
+        </div>
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper logo-of-companies">
+                <div
+                    class="swiper-slide logo-of-companies__el logo-of-companies__el_lenovo logo-of-companies__el_sm logo-of-companies__el_lg">
+                    <img src="../img/lenovo.svg" alt="lenovo" class="logo-of-companies__img_lenovo">
+                    <div class="go"></div>
+                </div>
+                <div
+                    class="swiper-slide logo-of-companies__el logo-of-companies__el logo-of-companies__el_samsung logo-of-companies__el_sm logo-of-companies__el_lg">
+                    <img src="../img/samsung.svg" alt="samsung" class="logo-of-companies__img_samsung">
+                </div>
+                <div
+                    class="swiper-slide logo-of-companies__el logo-of-companies__el_sm logo-of-companies__el_apple logo-of-companies__el_lg">
+                    <img src="../img/apple.svg" alt="apple" class="logo-of-companies__img_apple">
+                    <div class="go"></div>
+                </div>
+                <div
+                    class="swiper-slide logo-of-companies__el logo-of-companies__el_sm logo-of-companies__el_bosch logo-of-companies__el_lg">
+                    <img src="../img/bosch.svg" alt="bosch" class="logo-of-companies__img_bosch">
+                    <div class="go"></div>
+                </div>
+                <div
+                    class="swiper-slide logo-of-companies__el logo-of-companies__el_sm logo-of-companies__el_hp logo-of-companies__el_lg ">
+                    <img src="../img/hp.svg" alt="hp" class="logo-of-companies__img_hp">
+                    <div class="go"></div>
+                </div>
+                <div
+                    class="swiper-slide logo-of-companies__el logo-of-companies__el_sm logo-of-companies__el_acer logo-of-companies__el_lg">
+                    <img src="../img/acer.svg" alt="acer" class="logo-of-companies__img_acer">
+                    <div class="go"></div>
+                </div>
+                <div
+                    class="swiper-slide logo-of-companies__el logo-of-companies__el_lg logo-of-companies__el_viewSonic">
+                    <img src="../img/viewSonic.svg" alt="viewSonic" class="logo-of-companies__img_viewSonic">
+                    <div class="go"></div>
+                </div>
+                <div class="swiper-slide logo-of-companies__el logo-of-companies__el_lg logo-of-companies__el_sony">
+                    <img src="../img/sony.svg" alt="sony" class="logo-of-companies__img_sony">
+                    <div class="go"></div>
+                </div>
+
+                <div class="logo-of-companies__link-block logo-of-companies__link-block_down">
+                    <a href="#" class="logo-of-companies__link logo-of-companies__link_down pseudo-el-down">Показать
+                        все</a>
+                </div>
+
+                <div
+                    class="logo-of-companies__el logo-of-companies__el_click logo-of-companies__el_click-disabled logo-of-companies__el-click-sony ">
+                    <img src="../img/sony.svg" alt="sony">
+                    <div class="go"></div>
+                </div>
+                <div class="logo-of-companies__el logo-of-companies__el_click logo-of-companies__el-click_lenovo ">
+                    <img src="../img/lenovo.svg" alt="lenovo">
+                    <div class="go"></div>
+                </div>
+                <div class="logo-of-companies__el logo-of-companies__el_click logo-of-companies__el-click_samsung ">
+                    <img src="../img/samsung.svg" alt="samsung">
+                    <div class="go"></div>
+                </div>
+                <div class="logo-of-companies__el logo-of-companies__el_click logo-of-companies__el_click-last">
+                    <img src="../img/apple.svg" alt="apple">
+                </div>
+
+                <div class="logo-of-companies__link-block logo-of-companies__link-block_up">
+                    <a href="#" class="logo-of-companies__link logo-of-companies__link_up pseudo-el-up">Скрыть</a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
 
     </main>
 
-
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper ('.swiper-container', {
+          // Optional parameters
+          direction: 'vertical',
+          loop: true,
+      
+          // If we need pagination
+          pagination: {
+            el: '.swiper-pagination',
+          },
+      
+          // Navigation arrows
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+      
+          // And if we need scrollbar
+          scrollbar: {
+            el: '.swiper-scrollbar',
+          },
+        })
+        </script>
 </body>
 
 </html>
