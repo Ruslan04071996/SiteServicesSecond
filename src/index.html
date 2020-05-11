@@ -181,6 +181,9 @@
 </div>
 
 <hr class="hr-blue">
+
+    </main>
+
 <footer class="footer">
     <p class="footer__text">© 2019 CPS </p>
     <p class="footer__text footer__text_team">Разработано командой Apesong </p>
@@ -189,13 +192,10 @@
     <p class="footer__text footer__text_page">странице, не является публичной офертой</p>
    
 </footer>
-    </main>
-
-
 
     <script type="module">
 
-  import Swiper from 'https://unpkg.com/swiper/js/swiper.esm.browser.bundle.min.js';
+  import Swiper  from 'https://unpkg.com/swiper/js/swiper.esm.browser.bundle.min.js';
 
 
         var swiper = new Swiper('.swiper-container', {
@@ -204,7 +204,7 @@
             slidesOffsetAfter: 150,
             pagination: {
                 el: '.swiper-pagination',
-                clickable: true,
+                type: 'bullets',
             },
             breakpoints: {
                 319: {
