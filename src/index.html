@@ -7,8 +7,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
-<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
 </head>
 
@@ -179,31 +178,62 @@
 
     </main>
 
-    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-    <script>
-        var mySwiper = new Swiper ('.swiper-container', {
-          // Optional parameters
-          direction: 'vertical',
-          loop: true,
-      
-          // If we need pagination
-          pagination: {
-            el: '.swiper-pagination',
-          },
-      
-          // Navigation arrows
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-      
-          // And if we need scrollbar
-          scrollbar: {
-            el: '.swiper-scrollbar',
-          },
-        })
-        </script>
+
+
+    <script type="module">
+
+  import Swiper from 'https://unpkg.com/swiper/js/swiper.esm.browser.bundle.min.js';
+
+
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 2,
+            slidesOffsetBefore: 16,
+            slidesOffsetAfter: 150,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                319: {
+                    slidesPerView: 1.3,
+
+                },
+                350: {
+                    slidesPerView: 1.4,
+                },
+                400: {
+                    slidesPerView: 1.7,
+
+                },
+                450: {
+                    slidesPerView: 1.8,
+
+                },
+                500: {
+                    slidesPerView: 2,
+                },
+                550: {
+                    slidesPerView: 2.2,
+                },
+                600: {
+                    slidesPerView: 2.4,
+                },
+                650: {
+                    slidesPerView: 2.6
+                },
+                700: {
+                    slidesPerView: 2.8,
+                },
+                750: {
+                    slidesPerView: 3,
+                },
+
+
+            }
+        });
+          
+    </script>
+
 </body>
 
 </html>
