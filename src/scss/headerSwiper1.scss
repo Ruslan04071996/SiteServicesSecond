@@ -1,8 +1,11 @@
+$borderColorHeaderSwiper: #D9FFF5;
 .head {
     background: linear-gradient(270deg, #f8f8f8 0%, #ffffff 98.61%);
     padding: 16px;
+    border-top: 2px solid $borderColorHeaderSwiper;
     margin-bottom: 16px;
     padding-left: 4%;
+    margin-top: 20px;
 }
 .head__el {
     font-size: 16px;
