@@ -1,0 +1,31 @@
+.modal {
+    background-color: $bgColorHeader;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+.modal__icon {
+background-image: url(../img/close.svg);
+width: 40px;
+height: 40px;
+background-repeat: no-repeat;
+
+}
+.modul__promo-text::before {
+content: '';
+background-image: url(../img/highlight.svg);
+width:4px;
+height: 40px;
+position: absolute;
+left: -15px;
+top: 5px;
+}
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 342px;
+    position: relative;
+}
+.modal__button {
+align-self: flex-end;
+}
