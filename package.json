@@ -44,6 +44,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001055",
     "normalize.css": "^8.0.1",
     "swiper": "^5.3.8"
   }
