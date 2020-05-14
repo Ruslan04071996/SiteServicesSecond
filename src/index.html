@@ -479,53 +479,19 @@
             }
         });
 
-        var swiper2 = new Swiper('.swiper-container2', {
+        let swiperCollection = document.querySelectorAll('.swiper-container');
+
+        swiperCollection[1] = new Swiper('.swiper-container', {
             slidesPerView: 2,
             spaceBetween: 16,
             slidesOffsetBefore: 16,
             slidesOffsetAfter: 40,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            breakpoints: {
-                319: {
-                    slidesPerView: 1.3,
 
-                },
-                350: {
-                    slidesPerView: 1.4,
-                },
-                400: {
-                    slidesPerView: 1.7,
+        });
 
-                },
-                450: {
-                    slidesPerView: 1.8,
-
-                },
-                500: {
-                    slidesPerView: 2,
-                },
-                550: {
-                    slidesPerView: 2.2,
-                },
-                600: {
-                    slidesPerView: 2.4,
-                },
-                650: {
-                    slidesPerView: 2.6
-                },
-                700: {
-                    slidesPerView: 2.8,
-                },
-                750: {
-                    slidesPerView: 3,
-                },
+        console.log(swiperCollection[1]);
 
 
-            }
-        })
     </script>
 
 </body>
