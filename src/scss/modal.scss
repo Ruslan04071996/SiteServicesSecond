@@ -30,14 +30,20 @@ $borderColorInputModal: #eaeaea;
     left: -15px;
     top: 20px;
 }
-.modal__tel {
+.modal__input {
     padding: 12px;
     border-radius: 8px;
     border: 1px solid $borderColorInputModal;
     background-color: $bgColorHeader;
     flex-basis: 100%;
 }
-
+.modal-feedback__input_margin {
+    margin-bottom: $marginCommon;
+}
+.modal__input_hidden {
+    display: none;
+    margin-bottom: 0;
+}
 .modal__form {
     display: flex;
     flex-direction: column;

@@ -414,7 +414,10 @@
         <form action="" class="modal__form">
             <label class="modal__label-el">
                 <h3 class="modal__promo-text">Заказать звонок</h3>
-                <input type="tel" placeholder='Телефон' class="modal__tel" required>
+                <input type="text" placeholder="Имя" class="modal__input modal__input_hidden modal-feedback__input_margin" required>
+                <input type="tel" placeholder='Телефон' class="modal__input modal-feedback__input_margin" required>
+                <input type="email" placeholder="Электронная почта" class="modal__input modal__input_hidden modal-feedback__input_margin"  required>
+                <textarea cols="10" rows="5" placeholder="Сообщение" class="modal__input modal__input_hidden" required></textarea>
             </label>
             <p>Нажимая 'отправить', вы даете согласие
                 на <a href="#" class="modal__link-policy">обработку персональных данных</a>
