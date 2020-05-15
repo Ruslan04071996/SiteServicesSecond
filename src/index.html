@@ -105,7 +105,7 @@
             <h3 class="head__el">Ремонт техники различных брендов</h3>
         </div>
 
-        <div class="swiper-container">
+        <div class="swiper-container" id="swiper1">
             <div class="swiper-wrapper logo-of-companies">
                 <div
                     class="swiper-slide logo-of-companies__el logo-of-companies__el_lenovo logo-of-companies__el_sm logo-of-companies__el_lg">
@@ -190,7 +190,7 @@
             <h3 class="head__el">Ремонт техники различных брендов</h3>
         </div>
 
-        <div class="swiper-container swiper-container2">
+        <div class="swiper-container swiper-container2" id="swiper2">
             <div class="swiper-wrapper services">
                 <div class="swiper-slide services__el">
                     <div class="services__text">Ремонт ноутбуков</div>
@@ -236,7 +236,7 @@
         <div class="head">
             <h3 class="head__el">Цены на услуги</h3>
         </div>
-        <div class="swiper-container">
+        <div class="swiper-container" id="swiper3">
             <div class="swiper-wrapper prices ">
                 <div class="swiper-slide prices__block">
                     <div class="prices__el">
@@ -434,7 +434,7 @@
         import Swiper from 'https://unpkg.com/swiper/js/swiper.esm.browser.bundle.min.js';
 
 
-        var swiper = new Swiper('.swiper-container', {
+        var swiper = new Swiper('#swiper1', {
             slidesPerView: 2,
             spaceBetween: 16,
             slidesOffsetBefore: 16,
@@ -482,19 +482,101 @@
             }
         });
 
-        let swiperCollection = document.querySelectorAll('.swiper-container');
-
-        swiperCollection[1] = new Swiper('.swiper-container', {
+        var swiper = new Swiper('#swiper2', {
             slidesPerView: 2,
             spaceBetween: 16,
             slidesOffsetBefore: 16,
-            slidesOffsetAfter: 40,
+            slidesOffsetAfter: 46,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                319: {
+                    slidesPerView: 1.3,
 
+                },
+                350: {
+                    slidesPerView: 1.4,
+                },
+                400: {
+                    slidesPerView: 1.7,
+
+                },
+                450: {
+                    slidesPerView: 1.8,
+
+                },
+                500: {
+                    slidesPerView: 2,
+                },
+                550: {
+                    slidesPerView: 2.2,
+                },
+                600: {
+                    slidesPerView: 2.4,
+                },
+                650: {
+                    slidesPerView: 2.6
+                },
+                700: {
+                    slidesPerView: 2.8,
+                },
+                750: {
+                    slidesPerView: 3,
+                },
+
+
+            }
         });
 
-        console.log(swiperCollection[1]);
+        var swiper = new Swiper('#swiper3', {
+            slidesPerView: 2,
+            spaceBetween: 16,
+            slidesOffsetBefore: 16,
+            slidesOffsetAfter: 130,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                319: {
+                    slidesPerView: 1.3,
+
+                },
+                350: {
+                    slidesPerView: 1.4,
+                },
+                400: {
+                    slidesPerView: 1.7,
+
+                },
+                450: {
+                    slidesPerView: 1.8,
+
+                },
+                500: {
+                    slidesPerView: 2,
+                },
+                550: {
+                    slidesPerView: 2.2,
+                },
+                600: {
+                    slidesPerView: 2.4,
+                },
+                650: {
+                    slidesPerView: 2.6
+                },
+                700: {
+                    slidesPerView: 2.8,
+                },
+                750: {
+                    slidesPerView: 3,
+                },
 
 
+            }
+        });
     </script>
 
 </body>
