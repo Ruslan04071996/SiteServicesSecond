@@ -14,6 +14,9 @@ $marginCommon: 16px;
     color: $colorMenuLink;
     position: relative;
 }
+.warn__link:hover {
+    text-decoration: underline;
+}
 
 .warn__link::after {
     content: '';

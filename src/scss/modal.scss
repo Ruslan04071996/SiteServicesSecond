@@ -5,7 +5,7 @@ $borderColorInputModal: #eaeaea;
     display: flex;
     flex-direction: column;
     padding: 16px;
-    width: 320px;
+    max-width: 320px;
 }
 .modal__icon {
     background-image: url(../img/close.svg);
@@ -42,7 +42,6 @@ $borderColorInputModal: #eaeaea;
 }
 .modal__input_hidden {
     display: none;
-    margin-bottom: 0;
 }
 .modal__form {
     display: flex;
