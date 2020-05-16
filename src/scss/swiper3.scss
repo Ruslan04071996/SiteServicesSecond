@@ -3,16 +3,20 @@ $colorServicesHeader: #7e7e82;
 $commonFontSize: 14px;
 
 .prices__block {
-    display: flex;
+  display: flex;
+  flex-flow: column;
    border-radius: 6px;
-   padding: 16px
+   padding: 16px;
+   padding-bottom: 0;
+   justify-content: space-between;
+   align-items: flex-start;
 }
-.prices__el {
-    height: 182px
-}
+
 .prices__btn {
-    align-self: flex-end;
+   align-self: flex-end;
     display: flex;
+    position: relative;
+    top: -30px;
 }
 
 .prices__btn_back {
@@ -26,10 +30,9 @@ $commonFontSize: 14px;
     color: $colorMenuLink;
     margin: 0;
     margin-bottom: 16px;
+    
 }
-.prices__text_last {
-    margin-bottom: 4px;
-}
+
 .prices__text-button {
     font-size: $commonFontSize;
     line-height: 18px;
@@ -52,6 +55,11 @@ $commonFontSize: 14px;
 .prices__text-button_position {
     margin: 4px 20px 4px 12px;
 }
-.prices__text-hidden {
-    visibility: hidden;
+
+.prices__text_last {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+    margin-bottom: 0;
 }
