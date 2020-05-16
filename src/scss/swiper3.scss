@@ -4,9 +4,12 @@ $commonFontSize: 14px;
 
 .prices__block {
     display: flex;
-   
+   border-radius: 6px;
+   padding: 16px
 }
-
+.prices__el {
+    height: 182px
+}
 .prices__btn {
     align-self: flex-end;
     display: flex;
@@ -20,7 +23,12 @@ $commonFontSize: 14px;
 .prices__text {
     font-size: $commonFontSize;
     line-height: 18px;
-    color: $colorServicesHeader;
+    color: $colorMenuLink;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.prices__text_last {
+    margin-bottom: 4px;
 }
 .prices__text-button {
     font-size: $commonFontSize;
@@ -37,11 +45,10 @@ $commonFontSize: 14px;
     font-size: $commonFontSize;
     line-height: 16px;
     color: $colorServicesHeader;
+    opacity: 0.72;
+    margin: 0;
+    margin-bottom: 4px;
 }
 .prices__text-button_position {
     margin: 4px 20px 4px 12px;
-}
-.prices__btn_position {
-    position: relative;
-    top: -10px;
 }
