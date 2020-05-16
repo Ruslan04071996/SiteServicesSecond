@@ -1,43 +1,47 @@
 $backgroundButtonColor: #ff3e79;
-$colorServicesHeader: #7E7E82;
-
+$colorServicesHeader: #7e7e82;
+$commonFontSize: 14px;
 
 .prices__block {
-    background-color: $backgroundSlideColor;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-}
-.prices__btn {
-    position: absolute;
-    bottom: 16px;
-    left: 130px;
-    background-color: $backgroundButtonColor;
-    border-radius: 16px;
-}
-.button {
-    display: flex;
-    justify-content: space-around;
    
 }
-.button__text {
-    text-transform: uppercase;
-    font-size: 12px;
-    color: $backgroundSlideColor;
-    line-height: 24px;
-   margin: 4px 10px 4px 12px;
+
+.prices__btn {
+    align-self: flex-end;
+    display: flex;
 }
-.button__icon {
+
+.prices__btn_back {
+    background-color: $backgroundButtonColor;
+    border-radius: 20px;
+}
+
+.prices__text {
+    font-size: $commonFontSize;
+    line-height: 18px;
+    color: $colorServicesHeader;
+}
+.prices__text-button {
+    font-size: $commonFontSize;
+    line-height: 18px;
+    color: $bgColorHeader;
+}
+.prices__icon {
+    width: 24px;
+    height: 24px;
     background-image: url(../img/goside.svg);
-    width: 20px;
-    height: 20px;
     background-repeat: no-repeat;
-    align-self: center;
-    position: relative;
-    top: -3px;
 }
 .prices__header {
+    font-size: $commonFontSize;
+    line-height: 16px;
     color: $colorServicesHeader;
-    font-weight: normal;
+}
+.prices__text-button_position {
+    margin: 4px 20px 4px 12px;
+}
+.prices__btn_position {
+    position: relative;
+    top: -10px;
 }

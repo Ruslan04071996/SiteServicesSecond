@@ -96,11 +96,11 @@
 
         
 
-        <div class="head">
+        <div class="head head_swiper-first">
             <h3 class="head__el">Ремонт техники различных брендов</h3>
         </div>
 
-        <div class="swiper-container">
+        <div class="swiper-container" id="swiper1">
             <div class="swiper-wrapper logo-of-companies">
                 <div class="swiper-slide logo-of-companies__el logo-of-companies__el_lenovo logo-of-companies__el_sm logo-of-companies__el_lg">
                     <img src="../img/lenovo.svg" alt="lenovo" class="logo-of-companies__img_lenovo">
@@ -167,7 +167,7 @@
                     <a href="#" class="logo-of-companies__link logo-of-companies__link_up pseudo-el-up">Скрыть</a>
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination swiper-pagination_logo"></div>
 
         </div>
 
@@ -175,7 +175,7 @@
             <h3 class="head__el">Ремонт техники различных брендов</h3>
         </div>
 
-        <div class="swiper-container">
+        <div class="swiper-container swiper-container2" id="swiper2">
             <div class="swiper-wrapper services">
                 <div class="swiper-slide services__el">
                     <div class="services__text">Ремонт ноутбуков</div>
@@ -190,7 +190,7 @@
                     <div class="services__text">Ремонт ПК</div>
                     <div class="next"></div>
                 </div>
-                <div class="swiper-slide services">
+                <div class="swiper-slide services__el">
                     <div class="services__text">Ремонт мониторов</div>
                     <div class="next"></div>
                 </div>
@@ -221,107 +221,118 @@
         <div class="head">
             <h3 class="head__el">Цены на услуги</h3>
         </div>
-        <div class="swiper-container">
+        <div class="swiper-container" id="swiper3">
             <div class="swiper-wrapper prices">
                 <div class="swiper-slide prices__block">
                     <div class="prices__el">
                         <h4 class="prices__header">Ремонтные услуги</h4>
-                        <p>Тестирование с выдачей технического заключения</p>
+                        <p class="prices__text">Тестирование с выдачей технического заключения</p>
                     </div>
 
                     <div class="prices__el">
                         <h4 class="prices__header">Цена</h4>
-                        <p>Бесплатно</p>
+                        <p class="prices__text">Бесплатно</p>
                     </div>
                     <div class="prices__el prices__el-last">
                         <h4 class="prices__header">Срок</h4>
-                        <p>30-120 мин</p>
-                        
+                        <p class="prices__text">30-120 мин</p>
+
                     </div>
-                    <button type="button" class="prices__btn button"><p class="button__text">Заказать</p>
-                    <div class="button__icon"></div></button>
+                    <button type="button" class="prices__btn button">
+                        <p class="button__text">Заказать</p>
+                        <div class="button__icon"></div>
+                    </button>
                 </div>
 
                 <div class="swiper-slide prices__block">
                     <div class="prices__el">
                         <h4 class="prices__header">Ремонтные услуги</h4>
-                        <p>Диагностика</p>
+                        <p class="prices__text">Диагностика</p>
                     </div>
 
                     <div class="prices__el">
                         <h4 class="prices__header">Цена</h4>
-                        <p>Бесплатно</p>
+                        <p class="prices__text">Бесплатно</p>
                     </div>
                     <div class="prices__el prices__el-last">
                         <h4 class="prices__header">Срок</h4>
-                        <p>30 мин</p>
-                        
+                        <p class="prices__text">30 мин</p>
+
                     </div>
-                    <button type="button" class="prices__btn button"><p class="button__text">Заказать</p>
-                    <div class="button__icon"></div></button>
+                    <button type="button" class="prices__btn button">
+                        <p class="button__text">Заказать</p>
+                        <div class="button__icon"></div>
+                    </button>
                 </div>
 
                 <div class="swiper-slide prices__block">
                     <div class="prices__el">
                         <h4 class="prices__header">Ремонтные услуги</h4>
-                        <p>Замена дисплея</p>
+                        <p class="prices__text">Замена дисплея</p>
                     </div>
 
                     <div class="prices__el">
                         <h4 class="prices__header">Цена</h4>
-                        <p>1 000 ₽</p>
+                        <p class="prices__text">1 000 ₽</p>
                     </div>
                     <div class="prices__el prices__el-last">
                         <h4 class="prices__header">Срок</h4>
-                        <p>30-120 мин</p>
-                        
+                        <p class="prices__text">30-120 мин</p>
+                        <button type="button" class="prices__btn button">
+                            <p class="button__text">Заказать</p>
+                            <div class="button__icon"></div>
+                        </button>
                     </div>
-                    <button type="button" class="prices__btn button"><p class="button__text">Заказать</p>
-                    <div class="button__icon"></div></button>
+
                 </div>
 
                 <div class="swiper-slide prices__block">
                     <div class="prices__el">
                         <h4 class="prices__header">Ремонтные услуги</h4>
-                        <p>Замена полифонического динамика</p>
+                        <p class="prices__text">Замена полифонического динамика</p>
                     </div>
 
                     <div class="prices__el">
                         <h4 class="prices__header">Цена</h4>
-                        <p>1 000 ₽</p>
+                        <p class="prices__text">1 000 ₽</p>
                     </div>
                     <div class="prices__el prices__el-last">
                         <h4 class="prices__header">Срок</h4>
-                        <p>30-120 мин</p>
-                        
+                        <p class="prices__text">30-120 мин</p>
+
                     </div>
-                    <button type="button" class="prices__btn button"><p class="button__text">Заказать</p>
-                    <div class="button__icon"></div></button>
+                    <button type="button" class="prices__btn button">
+                        <p class="button__text">Заказать</p>
+                        <div class="button__icon"></div>
+                    </button>
                 </div>
 
                 <div class="swiper-slide prices__block">
                     <div class="prices__el">
                         <h4 class="prices__header">Ремонтные услуги</h4>
-                        <p>Замена программного обеспечения</p>
+                        <p class="prices__text">Замена программного обеспечения</p>
                     </div>
 
                     <div class="prices__el">
                         <h4 class="prices__header">Цена</h4>
-                        <p>1 000 ₽</p>
+                        <p class="prices__text">1 000 ₽</p>
                     </div>
                     <div class="prices__el prices__el-last">
                         <h4 class="prices__header">Срок</h4>
-                        <p>30-120 мин</p>
-                        
+                        <p class="prices__text">30-120 мин</p>
+
                     </div>
-                    <button type="button" class="prices__btn button"><p class="button__text">Заказать</p>
-                    <div class="button__icon"></div></button>
+                    <button type="button" class="prices__btn button">
+                        <p class="button__text">Заказать</p>
+                        <div class="button__icon"></div>
+                    </button>
                 </div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
         <div class="warn">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi illo fugit nisi voluptates nobis cum amet
+            <p class="warn__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi illo fugit nisi
+                voluptates nobis cum amet
                 debitis dolores, numquam tenetur? Odio expedita, adipisci consectetur quod commodi et est veritatis id.
             </p>
             <a href="#" class="warn__link">Получить коммерческое предложение</a>
@@ -339,16 +350,125 @@
         <p class="footer__text footer__text_page">странице, не является публичной офертой</p>
 
     </footer>
+    <section class="popup">
+        <nav class="popup__menu">
+            <div class="popup__main-icons">
+                <div class="popup__burger popup-button"></div>
+                <div class="popup__logo popup-button"></div>
+                <div class="popup__search popup-button"></div>
+            </div>
 
+
+            <ul class="popup__list">
+                <li class="popup__item popup__item_marked"><a href="#" class="popup__link popup__link_marked">Ремонт
+                        техники</a></li>
+                <li class="popup__item"> <a href="" class="popup__link">Услуги и сервисы</a></li>
+                <li class="popup__item"> <a href="" class="popup__link">Корпоративным клиентам</a></li>
+                <li class="popup__item"> <a href="" class="popup__link">Продавцам техники</a></li>
+                <li class="popup__item"> <a href="" class="popup__link">Партнерам</a></li>
+                <li class="popup__item"><a href="" class="popup__link">Производителям</a> </li>
+                <li class="popup__item"> <a href="" class="popup__link">Наши сервисные центры</a></li>
+                <li class="popup__item popup__item_last"> <a href="" class="popup__link">Контакты</a></li>
+
+            </ul>
+
+
+            <div class="popup__minor-icons">
+                <div class="popup__call popup-button"></div>
+                <div class="popup__chat popup-button"></div>
+                <div class="popup__profile popup-button"></div>
+            </div>
+            <div class="footer-popup">
+                <div class="footer-popup__item footer-popup__item_mail"><a href="mailto: mail@cps.com" class="footer-popup__link_mail">mail@cps.com</a></div>
+                <div class="footer-popup__item footer__item_tel"> <a href="tel: 8 800 890 8900" class="footer-popup__link_tel">8
+                        800 890 8900</a> </div>
+                <div class="footer-popup__item footer-popup__item_lang"><span class="footer-popup__lang footer-popup__lang_ru">RU</span>
+                    <span>EN</span>
+                    <span class="footer-popup__lang footer-popup__lang_ch">CH</span>
+                </div>
+            </div>
+
+        </nav>
+    </section>
+
+    <section class="modal">
+        <div class="modal__icon"></div>
+        <form action="" class="modal__form">
+            <label class="modal__label-el">
+                <h3 class="modal__promo-text">Заказать звонок</h3>
+                <input type="text" placeholder="Имя" class="modal__input modal__input_hidden modal-feedback__input_margin" required>
+                <input type="tel" placeholder="Телефон" class="modal__input modal-feedback__input_margin" required>
+                <input type="email" placeholder="Электронная почта" class="modal__input modal__input_hidden modal-feedback__input_margin" required>
+                <textarea cols="10" rows="5" placeholder="Сообщение" class="modal__input modal__input_hidden" required></textarea>
+            </label>
+            <p>Нажимая 'отправить', вы даете согласие
+                на <a href="#" class="modal__link-policy">обработку персональных данных</a>
+                и соглашаетесь с нашей политикой <a href="#" class="modal__link-policy">конфиденциальности</a>.
+            </p>
+            <button type="button" class="modal__button">
+                <p class="modal__text">Отправить</p>
+            </button>
+
+        </form>
+    </section>
     <script type="module">
 
         import Swiper from 'https://unpkg.com/swiper/js/swiper.esm.browser.bundle.min.js';
 
 
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 2,
+        var swiper = new Swiper('#swiper1', {
+            slidesPerView: 1.4,
+            spaceBetween: 16,
             slidesOffsetBefore: 16,
-            slidesOffsetAfter: 150,
+            slidesOffsetAfter: 240,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                319: {
+                    slidesPerView: 1.2,
+
+                },
+                350: {
+                    slidesPerView: 1.4,
+                },
+                400: {
+                    slidesPerView: 1.7,
+
+                },
+                450: {
+                    slidesPerView: 1.8,
+
+                },
+                500: {
+                    slidesPerView: 2,
+                },
+                550: {
+                    slidesPerView: 2.2,
+                },
+                600: {
+                    slidesPerView: 2.4,
+                },
+                650: {
+                    slidesPerView: 2.6
+                },
+                700: {
+                    slidesPerView: 2.8,
+                },
+                750: {
+                    slidesPerView: 3,
+                },
+
+
+            }
+        });
+
+        var swiper = new Swiper('#swiper2', {
+            slidesPerView: 1.2,
+            spaceBetween: 16,
+            slidesOffsetBefore: 16,
+            slidesOffsetAfter: 46,
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
@@ -392,6 +512,53 @@
             }
         });
 
+        var swiper = new Swiper('#swiper3', {
+            slidesPerView: 1.3,
+            spaceBetween: 16,
+            slidesOffsetBefore: 8,
+            slidesOffsetAfter: 130,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                319: {
+                    slidesPerView: 1.3,
+
+                },
+                350: {
+                    slidesPerView: 1.4,
+                },
+                400: {
+                    slidesPerView: 1.7,
+
+                },
+                450: {
+                    slidesPerView: 1.8,
+
+                },
+                500: {
+                    slidesPerView: 2,
+                },
+                550: {
+                    slidesPerView: 2.2,
+                },
+                600: {
+                    slidesPerView: 2.4,
+                },
+                650: {
+                    slidesPerView: 2.6
+                },
+                700: {
+                    slidesPerView: 2.8,
+                },
+                750: {
+                    slidesPerView: 3,
+                },
+
+
+            }
+        });
     </script>
 
 <script type="text/javascript" src="./js/bundle.js"></script></body>

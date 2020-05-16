@@ -31,5 +31,5 @@ orderCallBtn.addEventListener('click', function (ev) {
     mainContent.style.display = 'none';
     footer.style.display = 'none';
     modalEl.style.display = 'block';
-   console.log(modalEl);
+
 });
