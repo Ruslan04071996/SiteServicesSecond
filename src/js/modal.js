@@ -6,15 +6,15 @@ modalEl.style.display = 'none';
 const closeModalEl = document.querySelector('.modal__icon')
 const commercialLink = document.querySelector('.warn__link');
 const modalHeaderEl = document.querySelector('.modal__promo-text');
-let modalFeedbackInput = document.querySelector('.modal__input_hidden');
-modalFeedbackInput.style.display = 'none';
+let modalHiddenInput = document.querySelectorAll('.modal__input_hidden');
+
 const orderCallBtn = document.querySelector('.prices__btn');
 
 
 const listenerFuncCommercial = function (ev) {
     ev.preventDefault();
     modalHeaderEl.textContent = 'Обратная связь';
-    modalFeedbackInput.style.display = 'block';
+   
     mainContent.style.display = 'none';
     footer.style.display = 'none';
     modalEl.style.display = 'block';
@@ -31,5 +31,8 @@ orderCallBtn.addEventListener('click', function (ev) {
     mainContent.style.display = 'none';
     footer.style.display = 'none';
     modalEl.style.display = 'block';
-
+    for(let el of modalHiddenInput) {
+        el.style.display = 'none'
+    }
+ 
 });
