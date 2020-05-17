@@ -21,6 +21,6 @@ closeEl.addEventListener('click' , function(ev) {
     popupMenu.style.transitionProperty = 'left';
     popupMenu.style.transitionDuration = '2s';
     mainContent.style.display = 'block';
-    footer.style.display = 'block';
+    footer.style.display = 'flex';
 
 })
