@@ -3,20 +3,22 @@ $colorServicesHeader: #7e7e82;
 $commonFontSize: 14px;
 
 .prices__block {
+  
   display: flex;
-  flex-flow: column;
+ flex-direction: column;
    border-radius: 6px;
    padding: 16px;
    padding-bottom: 0;
-   justify-content: space-between;
+   
    align-items: flex-start;
+   position: relative;
 }
 
 .prices__btn {
-   align-self: flex-end;
+   
     display: flex;
-    position: relative;
-    top: -30px;
+
+ 
 }
 
 .prices__btn_back {
@@ -59,7 +61,7 @@ $commonFontSize: 14px;
 .prices__text_last {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-   
-    margin-bottom: 0;
+    align-items: center;
+   width: 100%;
+    margin-bottom: 10px;
 }
