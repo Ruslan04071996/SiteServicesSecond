@@ -24,10 +24,10 @@ commercialLink.addEventListener('click', listenerFuncCommercial);
 closeModalEl.addEventListener('click', function (ev) {
     modalEl.style.display = 'none';
     mainContent.style.display = 'block';
-    footer.style.display = 'block';
+    footer.style.display = 'flex';
 });
 orderCallBtn.addEventListener('click', function (ev) {
-    // ev.preventDefault();
+  
     mainContent.style.display = 'none';
     footer.style.display = 'none';
     modalEl.style.display = 'block';
