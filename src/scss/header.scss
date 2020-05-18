@@ -18,10 +18,25 @@ $bgColorHeader: #ffffff;
     height: 40px;
     background-image: url(../img/divider.svg);
 }
+
 .icons-and-header__icon_repair {
     width: 40px;
     height: 40px;
     background-image: url(../img/repair.svg);
+    background-repeat: no-repeat;
+}
+
+.icons-and-header__icon_status {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/checkstatus.svg);
+    background-repeat: no-repeat;
+}
+
+.icons-and-header__icon_call {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/call.svg);
     background-repeat: no-repeat;
 }
 
@@ -30,19 +45,6 @@ $bgColorHeader: #ffffff;
     height: 40px;
     background-image: url(../img/chat.svg);
     background-repeat: no-repeat;
-}
-
-.icons-and-header__icon_status {
-    width: 40px;
-    height: 40px;
-    background-image: url(../img/checkstatus.svg);
-}
-.icons-and-header__icon_call {
-    width: 40px;
-    height: 40px;
-    background-image: url(../img/call.svg);
-    background-repeat: no-repeat;
-
 }
 
 .icons-and-header__icon_profile {
@@ -55,16 +57,19 @@ $bgColorHeader: #ffffff;
 .icons-and-header__icon_lg {
     display: none;
 }
+
 .icons-and-header__icon_md {
-    display: none ;
+    display: none;
 }
 
 .icons-and-header__link {
     display: none;
 }
+
 .icons-and-header__header {
     display: none;
 }
+
 .icons-and-header__icon_sm {
     display: block;
     align-self: center;
@@ -73,26 +78,26 @@ $bgColorHeader: #ffffff;
 .icons-and-header {
     display: flex;
     background-color: $bgColorHeader;
-    padding: 24px 16px 18px 16px;
-    justify-content: space-between;
+    padding: 20px;
+    justify-content: space-around;
 }
+
 .head-md {
     font-size: 28px;
     margin-top: 24px;
-    margin-left: 16px;
+    margin-left: 20px;
     position: relative;
 }
+
 .head-md::before {
     content: '';
     width: 4px;
     height: 40px;
     background-image: url(../img/highlight.svg);
     position: absolute;
-    top: -5px;
     left: -15px;
+    
 }
-
-
 
 /* sm (>=576 и <=767) */
 
