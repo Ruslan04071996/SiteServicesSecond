@@ -98,7 +98,9 @@ $bgColorHeader: #ffffff;
     left: -15px;
     
 }
-
+.icons-and-header__icon_divider-md {
+    display: none;
+}
 /* sm (>=576 и <=767) */
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -121,6 +123,10 @@ $bgColorHeader: #ffffff;
     .icons-and-header__icon_logo {
         flex-basis: 40%;
         
+    }
+    .icons-and-header__icon_divider-md {
+        display: block;
+        align-self: center;
     }
 }
 
@@ -147,6 +153,9 @@ $bgColorHeader: #ffffff;
     .icons-and-header__icon_logo {
         flex-basis: 40%;
         
+    }
+    .icons-and-header__icon_divider-md {
+        align-self: center;
     }
 }
 
