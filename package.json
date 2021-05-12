@@ -46,6 +46,6 @@
   "dependencies": {
     "caniuse-lite": "^1.0.30001055",
     "normalize.css": "^8.0.1",
-    "swiper": "^5.3.8"
+    "swiper": "^6.5.1"
   }
 }
